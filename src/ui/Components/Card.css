@@ -1,0 +1,59 @@
+
+.card {
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+.card h2 {
+  color: #050d9a;
+  text-transform: capitalize;
+  font-size: 1cm;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 0.3cm;
+}
+.card p {
+  font-size: 0.5cm;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 0.1cm;
+}
+  
+
+  
+.img {
+  position: relative;
+  overflow: hidden;
+  width: 40%;
+  height: auto;
+  margin: auto;
+  display: flex;
+}
+  
+.img img {
+  display: block;
+  width: 100%;
+  height: 80%;
+  transition: transform 0.5s ease;
+}
+  
+.img button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  color: #484545;
+  font-size: 40px;
+  padding: 10px;
+  cursor: pointer;
+  }
+.img button:hover {
+  color: #3d0101;
+}
+
+.img button:first-child {
+  left: 10px;
+}
+  
+.img button:last-child {
+  right: 10px;
+}
+  
